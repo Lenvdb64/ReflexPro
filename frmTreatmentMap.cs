@@ -576,11 +576,11 @@ namespace ReflexPro
 
             // see examples here https://stackoverflow.com/questions/32260/sending-email-in-net-through-gmail
             //Specify senders gmail address
-            string SendersAddress = "lenvdb64@gmail.com";
+            string SendersAddress = "<your email>";
             //Specify The Address You want to sent Email To(can be any valid email address)
-            string ReceiversAddress = "adey73@gmail.com";
+            string ReceiversAddress = "<receiver email>";
             //Specify The password of gmial account u are using to sent mail(pw of sender@gmail.com)
-            const string SendersPassword = "D00gf@ce";
+            const string SendersPassword = "<Gmail Passw>";
             //Write the subject of ur mail
             const string subject = "Testing Reflex Pro Email";
             //Write the contents of your mail
